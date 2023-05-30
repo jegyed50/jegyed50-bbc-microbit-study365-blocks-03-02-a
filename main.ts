@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    led.setBrightness(125)
+    led.setBrightness(255)
     basic.showLeds(`
         # # # # #
         # # # # #
@@ -7,6 +7,9 @@ input.onButtonPressed(Button.A, function () {
         # # # # #
         # # # # #
         `)
+})
+input.onButtonPressed(Button.AB, function () {
+    led.setBrightness(127)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
